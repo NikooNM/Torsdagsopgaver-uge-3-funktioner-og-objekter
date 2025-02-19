@@ -34,6 +34,6 @@ String textToUpperCase (String textLowerCase) {
 }
 
 boolean isFirstLetterUpperCase (String text) {
-  boolean isUpperCase = Character.isUpperCase(text.charAt(0));
-  return isUpperCase;
+  boolean checkFirstLetter = Character.isUpperCase(text.charAt(0));
+  return checkFirstLetter;
 }
